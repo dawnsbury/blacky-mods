@@ -21,7 +21,7 @@ namespace GoblinAncestry.GoblinAncestry
 
         //Performance skill needed for Goblin Song
         public static Feat Performance = new SkillSelectionFeat(FeatName.CustomFeat, Skill.Performance, Trait.Performance).WithCustomName("Performance");
-        public static Feat ExpertPerformance = new SkillIncreaseFeat(FeatName.CustomFeat, Skill.Performance, Trait.Performance).WithCustomName("Expert in Performance");
+        public static Feat ExpertPerformance = new SkillIncreaseFeat(FeatName.CustomFeat, Skill.Performance, Trait.Performance, Proficiency.Expert).WithCustomName("Expert in Performance");
 
         
 
